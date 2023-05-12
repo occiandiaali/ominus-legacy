@@ -5,8 +5,10 @@
 
 Geolocation social network that helps you discover, and connect with, vetted people around you. Wherever you may go.  
 ## Android Screenshots  
-<img src="https://github.com/occiandiaali/okirikiri/assets/40769994/c1ad3d1b-6ffa-4335-9380-cf7e4b48a6ee.jpg" height="500">  <img src="https://github.com/occiandiaali/okirikiri/assets/40769994/bfa8f542-1f03-4019-b903-3738e3252b35.jpg" height="500">  
-<img src="https://github.com/occiandiaali/okirikiri/assets/40769994/2e75eaa5-52c6-449b-96f9-6eb722fe20fd.jpg" height="500">
+ <img src="https://github.com/occiandiaali/ominus/assets/40769994/edffdfcd-f841-43c1-af5d-8c0cb2929978.jpg" width="250" height="200">  
+   
+ <img src="https://github.com/occiandiaali/ominus/assets/40769994/9370761b-f2f0-4e5f-b596-6d7c5010a942.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/a53eb7e6-24e7-4431-97df-3204c7e70f1e.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/b66ebd46-85cc-4b06-8142-48e5dd3a7704.jpg" height="500"> 
+
 
 ## Getting Started
 
