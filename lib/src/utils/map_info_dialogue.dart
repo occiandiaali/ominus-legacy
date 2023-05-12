@@ -14,7 +14,7 @@ Future<void> mapInfoDialog(BuildContext ctx) async {
                 InkWell(
                   child: const Text('https://github.com/occiandiaali/ambit',
                     style: TextStyle(decoration: TextDecoration.underline),),
-                  onTap: () => launchUrl(Uri.parse('https://github.com/occiandiaali/ambit')),
+                  onTap: () => launchUrl(Uri.parse('https://github.com/occiandiaali/ominus')),
                 ),
               ],
             ),

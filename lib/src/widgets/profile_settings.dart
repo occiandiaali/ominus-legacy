@@ -21,7 +21,9 @@ class _ProfileSettingsState extends State<ProfileSettings> {
         ListTile(
           leading: const Icon(Icons.manage_accounts_rounded),
           title: const Text('Profile'),
-          onTap: () {},
+          onTap: () {
+            Navigator.of(context).pushReplacementNamed('/account');
+          },
         ),
         ListTile(
           leading: const Icon(Icons.chat_rounded),

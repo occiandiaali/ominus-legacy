@@ -1,20 +1,31 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:ominus/src/constants/supabase_client.dart';
+import 'package:ominus/src/features/authentication/ui/login_screen.dart';
 import 'package:ominus/src/features/mapping/ui/map_widget.dart';
+import 'package:ominus/src/features/user_account/account_page.dart';
+import 'package:ominus/src/splash_screen.dart';
 import 'package:ominus/src/utils/map_info_dialogue.dart';
 import 'package:ominus/src/utils/modalBottomSheet.dart';
 import 'package:ominus/src/widgets/expandable_fab.dart';
 import 'package:ominus/src/widgets/expandable_fab_action_button.dart';
 import 'package:ominus/src/widgets/floating_top_bar.dart';
 import 'package:ominus/src/widgets/profile_settings.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 
-void main() {
+Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   SystemChrome.setSystemUIOverlayStyle(
       const SystemUiOverlayStyle(
           statusBarColor: Colors.transparent
       )
+  );
+  await dotenv.load(fileName: ".env");
+  await Supabase.initialize(
+      url: supabaseUrl,
+      anonKey: supabaseKey!,
   );
   runApp(const MyApp());
 }
@@ -31,7 +42,14 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepOrange,
       ),
-      home: const HomePage(),
+      initialRoute: '/',
+      routes: <String, WidgetBuilder>{
+        '/': (_) => const SplashScreen(),
+        '/login': (_) => const LoginPage(),
+        '/home': (_) => const HomePage(),
+        '/account': (_) => const AccountPage(),
+      },
+     // home: const HomePage(),
     );
   }
 }

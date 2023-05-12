@@ -39,11 +39,12 @@ class _MapWidgetState extends State<MapWidget> {
     locationData = await location.getLocation();
     print("locationData: $locationData");
 
+      setState(() {
+        _pinPoint = LatLng(locationData.latitude!, locationData.longitude!);
+        coordsSet = true;
+      });
 
-    setState(() {
-      _pinPoint = LatLng(locationData.latitude!, locationData.longitude!);
-      coordsSet = true;
-    });
+
     print("Coords: $_pinPoint");
     return locationData;
   }
@@ -51,7 +52,10 @@ class _MapWidgetState extends State<MapWidget> {
   @override
   void initState() {
     super.initState();
-    _currentLocation();
+   // _currentLocation();
+    if (mounted) {
+      _currentLocation();
+    }
   }
 
   @override
