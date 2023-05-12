@@ -10,7 +10,15 @@ Geolocation social network that helps you discover, and connect with, vetted peo
 
 ## Android Screenshots  
      
- <img src="https://github.com/occiandiaali/ominus/assets/40769994/9370761b-f2f0-4e5f-b596-6d7c5010a942.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/a53eb7e6-24e7-4431-97df-3204c7e70f1e.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/b66ebd46-85cc-4b06-8142-48e5dd3a7704.jpg" height="500"> 
+ <img src="https://github.com/occiandiaali/ominus/assets/40769994/9370761b-f2f0-4e5f-b596-6d7c5010a942.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/a53eb7e6-24e7-4431-97df-3204c7e70f1e.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/b66ebd46-85cc-4b06-8142-48e5dd3a7704.jpg" height="500">   
+
+   
+## Chrome browser screenshots  
+<img src="https://github.com/occiandiaali/ominus/assets/40769994/2e001882-9d22-418e-ab02-bc60c8b83ef3.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/a63f4413-9bc9-483f-bf87-4102516d3eb2.jpg" height="500">  <img src="https://github.com/occiandiaali/ominus/assets/40769994/8a1c6156-3986-48b1-957e-a292c7c54853.jpg" height="500">  
+
+<img src="https://github.com/occiandiaali/ominus/assets/40769994/9f014244-68e1-43e9-839f-78705ac8c131.jpg" height="500"> 
+<img src="https://github.com/occiandiaali/ominus/assets/40769994/fcbca233-6f52-46e7-b0fc-53cec63aa61d.jpg" height="500"> 
+
 
 
 ## Getting Started
