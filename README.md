@@ -6,9 +6,8 @@
 
 Geolocation social network that helps you discover, and connect with, vetted people around you. Wherever you may go.  
   
-## Logo  
-<img src="https://github.com/occiandiaali/ominus/assets/40769994/edffdfcd-f841-43c1-af5d-8c0cb2929978.jpg" width="250" height="200"> 
-<img src="https://github.com/occiandiaali/ominus/assets/40769994/7887cf1c-7be0-4b61-b13c-b2555b397bdb.jpg" width="550" height="100">
+## Logo   
+<img src="https://github.com/occiandiaali/ominus/assets/40769994/7887cf1c-7be0-4b61-b13c-b2555b397bdb.jpg" width="600" height="200">
 
 ## Android Screenshots  
      
