@@ -78,12 +78,12 @@ class _LoginPageState extends State<LoginPage> {
           const SizedBox(height: 18),
           Column(
             children: const [
+              // Text(
+              //   'Sign In',
+              //   style: TextStyle(fontWeight: FontWeight.w700, fontSize: 28, fontFamily: 'Cera Pro'),
+              // ),
               Text(
-                'Sign In',
-                style: TextStyle(fontWeight: FontWeight.w700, fontSize: 28, fontFamily: 'Cera Pro'),
-              ),
-              Text(
-                'Enter email to request magic link',
+                'Enter email below to proceed with magic link',
                 style: TextStyle(fontWeight: FontWeight.w500, fontSize: 18, fontFamily: 'Cera Pro'),
               ),
             ],
